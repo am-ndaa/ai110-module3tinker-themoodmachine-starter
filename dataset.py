@@ -36,6 +36,8 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "chopped",
+    "cooked",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +52,23 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "I hate this class",
+    "I'm so cooked",
+    "I'm so chopped",
+    "I'm not cooked",
+    "She ate",
+    "This movie is amazing",
+    "I really enjoyed that show",
+    "This was a bad experience",
+    "I am feeling okay today",
+    "Lowkey excited for the trip",
+    "No cap, this was awesome",
+    "I absolutely love getting stuck in traffic",
+    "That was a fun night",
+    "I am so stressed and tired",
+    "Honestly, this is not great",
+    "The food was okay but not amazing",
+    "I had a great time with friends"
 ]
 
 # Human labels for each post above.
@@ -65,6 +84,23 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "negative",
+    "negative",
+    "negative",
+    "neutral",
+    "positive",
+    "positive",
+    "positive",
+    "negative",
+    "mixed",
+    "positive",
+    "negative",
+    "positive",
+    "negative",
+    "negative",
+    "mixed",
+    "positive",
+    "positive"
 ]
 
 # TODO: Add 5-10 more posts and labels.
